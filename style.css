@@ -15,17 +15,56 @@ nav{
     justify-content: flex-end;
 }
 
-#nav{
-    list-style-type: none;
-    overflow: hidden;
-}
-
-#nav li{
-    display: inline;
+.nav-item{
     margin: 0.2rem;
+    padding: 0.3rem;
+    text-align: center;
+    border-radius: .5rem;
 }
 
 .btn{
+    border: 1px solid transparent;
     background-color: #1a73e8;
     width: 5rem;
+    height: 2rem;
+}
+
+.btn a{
+    color: white;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.container figure{
+    justify-content: center;
+    align-self: center;
+}
+
+.box_search{
+    align-self: center;
+}
+
+.box_search input{
+    width: 45rem;
+    height: 2.5rem;
+    border-radius: .5rem;
+}
+
+.container .btn_container{
+    margin-top: .3rem;
+    justify-content: center;
+    align-self: center;
+}
+
+.btn_search{
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+}
+
+.footer{
+    background-color: #70757a;
+    color: #dadce0;
 }
